@@ -1,0 +1,118 @@
+# Output data from the NN using each optimizer
+
+    ###Stochastic Gradient Descent###
+Epoch 23/200 
+1s - loss: 9.1572 - 
+precision: 0.1059 - 
+recall: 0.4447 - 
+acc: 0.0138 - 
+fmeasure: 0.1709 - 
+val_loss: 7.7308 - 
+val_precision: 0.0254 - 
+val_recall: 0.1444 - 
+val_acc: 0.0070 - 
+val_fmeasure: 0.0412
+
+6900/7367 [===========================>..] - ETA: 0s
+Keras score was:  [19.347373437214792, 
+0.017009339644494619, 
+0.05154769080831996, 
+0.01900366482060558, 
+0.025171250750205664]
+
+
+    ###Adadelta after correcting midi shifting###
+Epoch 173/200 
+1s - loss: 5.1300 - 
+precision: 0.6693 - 
+recall: 0.5115 - 
+acc: 0.2868 - 
+fmeasure: 0.5789 - 
+val_loss: 5.0738 - 
+val_precision: 0.4096 - 
+val_recall: 0.3278 - 
+val_acc: 0.2171 - 
+val_fmeasure: 0.3441
+
+Keras score was:  [28.078043827389834, 
+0.024362737650449426, 
+0.0061083663750788287, 
+0.011673679839032338, 
+0.0096066846929817231]
+//score based on evaluate results
+
+    ###Adam###
+Epoch 111/200 
+1s - loss: 4.8650 - 
+precision: 0.6499 - 
+recall: 0.6426 - 
+acc: 0.2997 - 
+fmeasure: 0.6456 - 
+val_loss: 5.1437 - 
+val_precision: 0.3951 - 
+val_recall: 0.3946 - 
+val_acc: 0.2061 - val_fmeasure: 0.3739
+
+7300/7367 [============================>.] - ETA: 0sKeras score was:  
+[31.528892598385823, 
+0.021896275729487089, 
+0.0076490722550376306, 
+0.0050223971149062829, 
+0.011150776585598151]
+
+    ###Adamax###
+Epoch 200/200 
+1s - loss: 4.8357 - 
+precision: 0.6495 - 
+recall: 0.6405 - acc: 0.2926 - 
+fmeasure: 0.6441 - 
+val_loss: 5.0348 - 
+val_precision: 0.3996 - 
+val_recall: 0.3692 - 
+val_acc: 0.1985 - val_fmeasure: 0.3643
+
+7000/7367 [===========================>..] - ETA: 0sKeras score was:  
+[31.26033295209006, 
+0.020861437776077549, 
+0.0073392369709322381, 
+0.0080086872349750468, 
+0.010711790087897174]
+
+    ###Nadam###
+Epoch 61/200 
+1s - loss: 4.8763 - 
+precision: 0.6352 - 
+recall: 0.6663 - 
+acc: 0.2940 - 
+fmeasure: 0.6496 - 
+val_loss: 5.0877 - 
+val_precision: 0.3935 - 
+val_recall: 0.4205 - 
+val_acc: 0.1946 - val_fmeasure: 0.3868
+
+7000/7367 [===========================>..] - ETA: 0sKeras score was:  
+[31.870737136130387, 
+0.025441250281548249, 
+0.0097400550004254124, 
+0.0089588706150652998, 
+0.01360044935691631]
+
+    ###Nadam bigger training dataset###
+Epoch 33/200 
+1s - loss: 3.9693 - 
+precision: 0.7900 - 
+recall: 0.6735 - 
+acc: 0.3313 - 
+fmeasure: 0.7262 - 
+val_loss: 5.9250 - 
+val_precision: 0.3941 - 
+val_recall: 0.2752 - 
+val_acc: 0.1662 - 
+val_fmeasure: 0.3094
+
+7000/7367 [===========================>..] - ETA: 0sKeras score was:  
+[37.026777843259417, 
+0.033356825594686744, 
+0.013661646749002568, 
+0.010587756226181345, 
+0.018628625694125815]

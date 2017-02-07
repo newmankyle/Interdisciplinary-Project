@@ -1,0 +1,6 @@
+# Constant thresholding without machine learning:
+
+precision:  0.03276268378433056
+recall:  0.22166321396862979
+accuracy:  0.029382487213812515
+f-measure:  0.05708759878622162
